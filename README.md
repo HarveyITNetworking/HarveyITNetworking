@@ -1,16 +1,90 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | IT Support Specialist</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --accent: #38bdf8;
+            --text: #f1f5f9;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container { max-width: 800px; width: 100%; }
+        header { text-align: center; padding: 40px 0; }
+        h1 { color: var(--accent); margin-bottom: 0; }
+        .badge {
+            background: #0369a1;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+        }
+        .box {
+            background: var(--card);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h3 { margin-top: 0; color: var(--accent); }
+        ul { padding-left: 20px; }
+        .status-tag {
+            font-style: italic;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
 
-<!--
-**HarveyITNetworking/HarveyITNetworking** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div class="container">
+    <header>
+        <h1>Your Name</h1>
+        <p>IT Support & Device Configuration Specialist</p>
+        <span class="badge">Open to Entry-Level Opportunities</span>
+    </header>
 
-Here are some ideas to get you started:
+    <div class="box">
+        <h3>Technical Focus</h3>
+        <p>Specializing in <strong>Beginner-Level Troubleshooting</strong> and <strong>End-User Support</strong>. I focus on resolving hardware, software, and connectivity issues efficiently to minimize downtime.</p>
+    </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <div class="box">
+        <h3>Certifications & Training</h3>
+        <ul>
+            <li><strong>Device Configuration Certification</strong> – [Issuing Body, e.g., Microsoft/Google]</li>
+            <li><strong>CompTIA A+ (In Progress)</strong> – <span class="status-tag">Currently training for Core 1 (220-1101)</span></li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Core Skills</h3>
+        <ul>
+            <li>OS Installation & Configuration (Windows 10/11, macOS)</li>
+            <li>Mobile Device Management (MDM) & Setup</li>
+            <li>Peripheral Troubleshooting (Printers, Scanners, Docking Stations)</li>
+            <li>Basic Network Connectivity (TCP/IP, Wi-Fi Setup)</li>
+        </ul>
+    </div>
+
+    <div class="box" style="text-align: center;">
+        <h3>Contact</h3>
+        <p>Email: your@email.com | <a href="#" style="color:var(--accent)">LinkedIn Profile</a></p>
+    </div>
+</div>
+
+</body>
+</html>
